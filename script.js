@@ -16,3 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
         lastScrollTop = scrollPosition;
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    var mySwiper = new Swiper('.swiper-container', {
+loop: true,
+autoplay: {
+        delay: 3000, // 3 seconds delay between slides
+},
+    });
+});
